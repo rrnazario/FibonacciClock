@@ -10,3 +10,9 @@ c:\users\rogim\documents\visual studio 2015\Projects\FibonacciClock\FibonacciClo
 C:\Users\Rogim\Source\Repos\FibonacciClock\FibonacciClock\bin\Debug\FibonacciClock.exe.config
 C:\Users\Rogim\Source\Repos\FibonacciClock\FibonacciClock\obj\Debug\FibonacciClock.exe
 C:\Users\Rogim\Source\Repos\FibonacciClock\FibonacciClock\obj\Debug\FibonacciClock.pdb
+C:\Users\Rogim\Source\Repos\FibonacciClock\FibonacciClock\bin\Debug\FibonacciClock.exe
+C:\Users\Rogim\Source\Repos\FibonacciClock\FibonacciClock\bin\Debug\FibonacciClock.pdb
+C:\Users\Rogim\Source\Repos\FibonacciClock\FibonacciClock\obj\Debug\FibonacciClock.csprojResolveAssemblyReference.cache
+C:\Users\Rogim\Source\Repos\FibonacciClock\FibonacciClock\obj\Debug\FibonacciClock.Principal.resources
+C:\Users\Rogim\Source\Repos\FibonacciClock\FibonacciClock\obj\Debug\FibonacciClock.Properties.Resources.resources
+C:\Users\Rogim\Source\Repos\FibonacciClock\FibonacciClock\obj\Debug\FibonacciClock.csproj.GenerateResource.Cache

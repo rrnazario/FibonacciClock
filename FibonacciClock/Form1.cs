@@ -19,7 +19,7 @@ namespace FibonacciClock
 
             timer = new System.Threading.Timer(Hora, this, 0, (int)(new TimeSpan(0,0,10)).TotalMilliseconds);
 
-            this.FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = FormBorderStyle.None;
             borderApearing = true;
         }
 
@@ -51,6 +51,13 @@ namespace FibonacciClock
         private void btn5_MouseLeave(object sender, EventArgs e)
         {
            // FormBorderStyle = FormBorderStyle.None;            
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            FormBorderStyle = (FormBorderStyle == FormBorderStyle.FixedToolWindow)
+                ? FormBorderStyle.None
+                : FormBorderStyle.FixedToolWindow;
         }
     }
 }

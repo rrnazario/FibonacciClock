@@ -46,6 +46,7 @@
             this.btn2.TabIndex = 0;
             this.btn2.TabStop = false;
             this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn11
             // 
@@ -57,6 +58,7 @@
             this.btn11.TabIndex = 1;
             this.btn11.TabStop = false;
             this.btn11.UseVisualStyleBackColor = false;
+            this.btn11.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn12
             // 
@@ -68,6 +70,7 @@
             this.btn12.TabIndex = 2;
             this.btn12.TabStop = false;
             this.btn12.UseVisualStyleBackColor = false;
+            this.btn12.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn3
             // 
@@ -79,6 +82,7 @@
             this.btn3.TabIndex = 3;
             this.btn3.TabStop = false;
             this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn5
             // 
@@ -90,6 +94,7 @@
             this.btn5.TabIndex = 4;
             this.btn5.TabStop = false;
             this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // Principal
             // 
