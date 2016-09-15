@@ -16,14 +16,14 @@ To see minutes:
 
 Example:
 
-  Square value 1: green
-  Square value 1: green
-  Square value 2: white
-  Square value 3: red
-  Square value 5: blue
+  - Square value 1: green
+  - Square value 1: green
+  - Square value 2: white
+  - Square value 3: red
+  - Square value 5: blue
   
-  Hours (sum red and blue): 5 + 3 = 8
-  Minutes (sum green and blue and multiply by 5): 1 + 1 + 5 = 7 * 5 = 35
+  - Hours (sum red and blue): 5 + 3 = 8
+  - Minutes (sum green and blue and multiply by 5): 1 + 1 + 5 = 7 * 5 = 35
   
   Then, we have 8:35.
   
