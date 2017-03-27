@@ -1,5 +1,5 @@
 # FibonacciClock
-A simple Fibonacci clock written in WebForm C#.
+A simple Fibonacci clock written in C# WebForms.
 
 Q.: How look the time in this clock?
 A.: Like this:
