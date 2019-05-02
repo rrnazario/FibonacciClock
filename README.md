@@ -1,5 +1,9 @@
-# FibonacciClock
-A simple Fibonacci clock written in C# WebForms.
+<p align="center">
+<h1 align="center"><b> FibonacciClock</b></h1>
+  <p align="center">A simple Fibonacci clock written in C# WebForms.</p>
+</p>
+
+[![Build Status](https://travis-ci.org/rrnazario/FibonacciClock.svg?branch=master)](https://travis-ci.org/rrnazario/FibonacciClock)
 
 Q.: How look the time in this clock?
 A.: Like this:
