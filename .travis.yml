@@ -1,0 +1,6 @@
+language: csharp
+solution: FibonacciClock.sln
+install:
+  - nuget restore FibonacciClock.sln
+script:
+  - msbuild /p:Configuration=Release FibonacciClock.sln
