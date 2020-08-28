@@ -1,6 +1,6 @@
 ﻿namespace FibonacciClock
 {
-    partial class Principal
+    partial class FrmPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -113,8 +113,6 @@
             this.Name = "Principal";
             this.ShowIcon = false;
             this.TopMost = true;
-            this.MouseEnter += new System.EventHandler(this.btn5_MouseEnter);
-            this.MouseLeave += new System.EventHandler(this.btn5_MouseLeave);
             this.ResumeLayout(false);
 
         }
