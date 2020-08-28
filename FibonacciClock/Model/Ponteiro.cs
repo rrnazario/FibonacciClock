@@ -4,20 +4,17 @@ namespace FibonacciClock.Model
 {
     public class Ponteiro
     {
-        public int Valor { get; set; }
-        public Color Cor { get; set; }
+        private int Valor { get; }
+        public Color Cor { get; private set; } = Color.White;
 
-        protected virtual void ConfiguraCorHora()
-        {
-            if (Cor != Color.Red)
-                Cor = Color.Red;
-        }
+        public Ponteiro(int valor) => Valor = valor;
 
         public int ConfiguraCorHora(int hora)
         {
             if (hora >= Valor)
             {
-                ConfiguraCorHora();
+                if (Cor != Color.Red)
+                    Cor = Color.Red;
 
                 return hora - Valor;
             }
@@ -25,13 +22,12 @@ namespace FibonacciClock.Model
                 return hora;
         }
 
-        protected void ConfiguraCorMinuto() => Cor = (Cor == Color.Red) ? Color.Blue : Color.Green;
-
         public int ConfiguraCorMinuto(int minuto)
         {
             if ((minuto / 5) >= Valor)
             {
-                ConfiguraCorMinuto();
+                Cor = (Cor == Color.Red) ? Color.Blue : Color.Green;
+
                 return minuto - (5 * Valor);
             }
             else

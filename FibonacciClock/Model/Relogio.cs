@@ -1,24 +1,23 @@
 ﻿using FibonacciClock.Model;
 using System;
-using System.Drawing;
 
 namespace FibonacciClock
 {
     public class Relogio
     {
-        public Ponteiro PonteiroUm1 { get; set; }
-        public Ponteiro PonteiroUm2 { get; set; }
-        public Ponteiro PonteiroDois { get; set; }
-        public Ponteiro PonteiroTres { get; set; }
-        public Ponteiro PonteiroCinco { get; set; }
+        public Ponteiro PonteiroUm1 { get; }
+        public Ponteiro PonteiroUm2 { get; }
+        public Ponteiro PonteiroDois { get; }
+        public Ponteiro PonteiroTres { get; }
+        public Ponteiro PonteiroCinco { get; }
 
         public Relogio()
         {
-            PonteiroUm1 = new Ponteiro() { Valor = 1, Cor = Color.White };
-            PonteiroUm2 = new Ponteiro() { Valor = 1, Cor = Color.White };
-            PonteiroDois = new Ponteiro() { Valor = 2, Cor = Color.White };
-            PonteiroTres = new Ponteiro() { Valor = 3, Cor = Color.White };
-            PonteiroCinco = new Ponteiro() { Valor = 5, Cor = Color.White };
+            PonteiroUm1 = new Ponteiro(1);
+            PonteiroUm2 = new Ponteiro(1);
+            PonteiroDois = new Ponteiro(2);
+            PonteiroTres = new Ponteiro(3);
+            PonteiroCinco = new Ponteiro(5);
         }
 
         public override string ToString() => $"{PonteiroUm1}\n{PonteiroUm2}\n{PonteiroDois}\n{PonteiroTres}\n{PonteiroCinco}\n";
