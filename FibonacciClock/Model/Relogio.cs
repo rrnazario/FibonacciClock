@@ -30,28 +30,22 @@ namespace FibonacciClock
             var minuto = DateTime.Now.Minute;
 
             //olhando as horas
-            while (hora > 0)
-            {
-                Console.WriteLine(hora);
+            Console.WriteLine(hora);
 
-                hora = PonteiroCinco.ConfiguraCorHora(hora);
-                hora = PonteiroTres.ConfiguraCorHora(hora);
-                hora = PonteiroDois.ConfiguraCorHora(hora);
-                hora = PonteiroUm1.ConfiguraCorHora(hora);
-                hora = PonteiroUm2.ConfiguraCorHora(hora);
-            }
+            hora = PonteiroCinco.ConfiguraCorHora(hora);
+            hora = PonteiroTres.ConfiguraCorHora(hora);
+            hora = PonteiroDois.ConfiguraCorHora(hora);
+            hora = PonteiroUm1.ConfiguraCorHora(hora);
+            PonteiroUm2.ConfiguraCorHora(hora);
 
             //olhando os minutos
-            while (minuto >= 5)
-            {
-                Console.WriteLine(minuto);
+            Console.WriteLine(minuto);
 
-                minuto = PonteiroCinco.ConfiguraCorMinuto(minuto);
-                minuto = PonteiroTres.ConfiguraCorMinuto(minuto);
-                minuto = PonteiroDois.ConfiguraCorMinuto(minuto);
-                minuto = PonteiroUm1.ConfiguraCorMinuto(minuto);
-                minuto = PonteiroUm2.ConfiguraCorMinuto(minuto);
-            }
+            minuto = PonteiroCinco.ConfiguraCorMinuto(minuto);
+            minuto = PonteiroTres.ConfiguraCorMinuto(minuto);
+            minuto = PonteiroDois.ConfiguraCorMinuto(minuto);
+            minuto = PonteiroUm1.ConfiguraCorMinuto(minuto);
+            PonteiroUm2.ConfiguraCorMinuto(minuto);
         }
     }
 }
