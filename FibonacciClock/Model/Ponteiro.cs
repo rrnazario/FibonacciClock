@@ -13,8 +13,7 @@ namespace FibonacciClock.Model
         {
             if (hora >= Valor)
             {
-                if (Cor != Color.Red)
-                    Cor = Color.Red;
+                Cor = Color.Red;
 
                 return hora - Valor;
             }
